@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[가양 가양 클럽 룩북]]></title>
-  <link>https://t3b01-gy-club-look.pages.dev</link>
-  <description><![CDATA[가양 클럽 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Thu, 28 May 2026 13:47:10 GMT</pubDate>
-  <lastBuildDate>Thu, 28 May 2026 13:47:10 GMT</lastBuildDate>
-  <atom:link href="https://t3b01-gy-club-look.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+  <title><![CDATA[클럽]]></title>
+  <link>https://tidalhss-star.github.io/bp-t3b01-gy-club-look</link>
+  <description><![CDATA[클럽 - 가양 클럽 룩북 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Wed, 10 Jun 2026 20:31:48 GMT</pubDate>
+  <lastBuildDate>Wed, 10 Jun 2026 20:31:48 GMT</lastBuildDate>
+  <atom:link href="https://tidalhss-star.github.io/bp-t3b01-gy-club-look/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[가양 가양 클럽 룩북 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https://t3b01-gy-club-look.pages.dev/</link>
-      <guid isPermaLink="true">https://t3b01-gy-club-look.pages.dev/</guid>
-      <description><![CDATA[가양 클럽 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Thu, 28 May 2026 13:47:10 GMT</pubDate>
+      <title><![CDATA[가양 클럽 룩북 선택 전에 확인할 체크리스트와 실패 사례]]></title>
+      <link>https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/checklist-002-nagygp.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/checklist-002-nagygp.html</guid>
+      <description><![CDATA[### 키워드 컨텍스트이 글의 배경 비즈니스 키워드는 "가양 클럽 룩북"입니다. 글의 흐름 속에서 이 키워드와 자연스럽게 연결되는 지점은 "Cherry MX 스위치의 독일 공장과 중국 공장 생산분의 미세한 작동음 차이와 로트 식별법". 이를 통해 이 글이 가양 클럽 룩]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[창작한 제목]]></title>
+      <link>https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/compare-001-nagygp.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/compare-001-nagygp.html</guid>
+      <description><![CDATA[### 포스트 메타정보포스트 기획 테마: 가양 클럽 룩북 vs 가양 클럽 룩북 비교 — 어디가 더 좋을까? 비교 분석 Llama 3.1 8B RoPE theta 조정의 효과와 어텐션 패턴 변화 #### 소제목- 버전 변경 및 그 영향- 특정 토큰 구간에서의 변화 분석-]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Q4_K_M 양자화: &#39;잘린 히든 딤&#39;이 instruction following을 망가뜨리는 미묘한 버그의 세계]]></title>
+      <link>https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/guide-003.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/guide-003.html</guid>
+      <description><![CDATA[neural network, abstract, circuit board, digital art, glowing lines, data flow, complex system, technology, AI, deep learning, artificial intelligence]]></description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[가양 클럽 룩북 서버? 새벽 3시, Lightsail의 은밀한 반란: CPU 크레딧 고갈과 커널 패닉의 씁쓸한 진실]]></title>
+      <link>https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/review-001.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/review-001.html</guid>
+      <description><![CDATA[새벽 세 시, 페이저가 울렸다. 머릿속엔 자동으로 "아, 또 그놈의 리전 DNS 문제인가" 하는 짜증 섞인 생각이 스쳤다. 지난달에도 동부 리전 DNS 트러블 때문에 밤새 시달렸던 터라, 또다시 시작될 고된 싸움에 한숨부터 나왔지. 하지만 이번엔 좀 달랐다. 흔한 네트]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Llama 3.1 8B, RoPE theta 5000만 때려 박았더니 Perplexity는 떡락인데… 네오빔은 왜 튀어나오냐고]]></title>
+      <link>https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/review-002.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-t3b01-gy-club-look/posts/review-002.html</guid>
+      <description><![CDATA[아니, 진짜 사람 미치게 하네. 우리 팀 프로덕션 서버에 Llama 3.1 8B 모델 돌린 지 딱 3개월 됐거든? 처음엔 뭐, ‘역시 메타가 만들면 다르네!’ 하면서 콧노래 불렀지. 근데 슬금슬금 이상한 낌새가 보이더라고. 특히 Neovim에서 코드 자동 완성될 때, ]]></description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Llama 3.1 8B, RoPE theta 5000만 때려 박았더니 Perplexity는 떡락인데… 네오빔은 왜 튀어나오냐고</title>
+  <link rel="canonical" href="t3b01-gy-club-look/posts/review-002.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>Llama 3.1 8B, RoPE theta 5000만 때려 박았더니 Perplexity는 떡락인데… 네오빔은 왜 튀어나오냐고</h1>
+    <article>
+      <p><img src="../assets/interior__hero__t1-shiny-room__1344x768__95a76b1d54b62c82.png" alt="컴퓨터 화면에서 코드와 함께 고양이 캐릭터가 놀라고 있는 모습" loading="lazy" width="1344" height="768"></p>
+<p>아니, 진짜 사람 미치게 하네. 우리 팀 프로덕션 서버에 Llama 3.1 8B 모델 돌린 지 딱 3개월 됐거든? 처음엔 뭐, ‘역시 메타가 만들면 다르네!’ 하면서 콧노래 불렀지. 근데 슬금슬금 이상한 낌새가 보이더라고. 특히 Neovim에서 코드 자동 완성될 때, 저 아래 숨어있던 inlay hint들이랑 충돌하는 버그가 나타나기 시작한 거야. 이게 처음엔 간헐적으로 발생하니까 ‘아, 내 로컬 환경 문제인가?’ 하고 넘겼는데, 이게 서버 로그에도 찍히기 시작하면서 ‘아, 이거 모델 문제다’ 확신했지.</p>
+<p>이 문제 잡겠다고 며칠 밤새운 건지 모르겠다. 결국 원인이 Llama 3.1 8B의 RoPE theta 값을 50만에서 5000만으로 올린 거였더라고. 아니, 이게 무슨 해괴망측한 짓이냐고. 일반적으로 RoPE theta 값을 올리면 Perplexity가 쭉 떨어지면서 성능이 올라가는 게 정석 아니냐? 우리도 그래서 올렸던 건데, Perplexity는 0.2까지 떡락했거든? 이거 보고 ‘와, 대박!’ 했지. 근데 그 대가로 Neovim inlaid hint랑 싸우고 있을 줄이야.</p>
+<p><img src="../assets/interior__hero__t1-test__1344x768__ae91246b5126fe47.png" alt="그래프에서 RoPE theta 값이 증가함에 따라 Perplexity가 급격히 감소하는 모습" loading="lazy" width="1024" height="576"></p>
+<p>더 웃긴 건, 특정 토큰 구간에서 어텐션 패턴이 완전히 달라진다는 거야. GPT-4 Turbo로 분석해보니, RoPE theta를 5000만으로 올리니까, 기존 모델에서 잘만 작동하던 토큰 시퀀스에서 갑자기 어텐션 가중치가 뒤죽박죽이 되더라고. 마치 모델이 갑자기 ‘내가 뭘 봐야 하는지 모르겠다!’ 하고 외치는 것 같았지. 이 지점만 되면 Neovim inlay hint가 엉뚱한 곳에 튀어나오거나, 아예 사라져버리는 거야.</p>
+<p>이거 진짜 ‘silent regression’의 정석이지. 명백한 버그인데, 사용자 입장에서 처음엔 인지하기도 어렵고, 원인 분석하기도 더럽게 힘들어. 결국 우리는 RoPE theta 값을 다시 100만으로 내리고, 대신 다른 하이퍼파라미터 튜닝으로 성능을 조금 희생하는 방향으로 갔어. 5000만? 그거 올렸다가 네오빔이랑 싸우고 싶지 않으면 그냥 쳐다도 보지 마. 이게 ML 엔지니어의 비애다, 비애.</p>
+
+    <div class="juice-ref-ea9bcw" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>관련 업계 트렌드와 통계는 <a href="https://mens-esthe.space">shinjuku-mens</a>에 정리되어 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://github.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>
